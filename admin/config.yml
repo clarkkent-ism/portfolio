@@ -4,11 +4,11 @@
 # ============================================================
 backend:
   name: github
-  repo: USERNAME/REPO        # ví dụ: hungnguyen/portfolio
+  repo: hungnguyenck/portfolio        # ví dụ: hungnguyen/portfolio
   branch: main
 
-site_url: https://USERNAME.github.io/REPO/   # link "View Live Site" trong CMS
-display_url: https://USERNAME.github.io/REPO/
+site_url: https://hungnguyenck.github.io/portfolio/   # link "View Live Site" trong CMS
+display_url: https://hungnguyenck.github.io/portfolio/
 publish_mode: simple         # Save = commit thẳng vào main -> GitHub Actions tự build lại (~1-2 phút)
 
 media_folder: assets/uploads # ảnh upload lưu ở đây
