@@ -1,0 +1,61 @@
+{
+  "title": "Esports content rights and strategic partnerships",
+  "role": "Business Development Manager",
+  "company": "VTV Live",
+  "period": "09/2024 – 10/2025",
+  "icon": "VL",
+  "card_name": "VTV Live",
+  "card_note": "Content rights and partnerships",
+  "thumb": "/assets/uploads/vtv-thumb.jpg",
+  "thumb_alt": "VTVcab and ON Live announcement for LCK Cup 2026 broadcast",
+  "slides": [
+    {
+      "image": "/assets/uploads/vtv-1.jpg",
+      "alt": "VTVcab and ON Live announcement for LCK Cup 2026 broadcast"
+    },
+    {
+      "image": "/assets/uploads/vtv-2.jpg",
+      "alt": "ON Live esports broadcast of EWC 2026 on VTV channels"
+    },
+    {
+      "image": "/assets/uploads/vtv-3.jpg",
+      "alt": "VTVcab and ON Live content distribution partnership for Lien Quan Mobile esports"
+    }
+  ],
+  "metrics": [
+    {
+      "value": "USD 270K+",
+      "label": "revenue from 2 production partnerships (Valorant)"
+    },
+    {
+      "value": "USD 500K",
+      "label": "value-in-kind for Riot’s biggest media rights (LoL)"
+    },
+    {
+      "value": "−50%",
+      "label": "production cost per unit"
+    }
+  ],
+  "challenge": "Esports content distribution and production was a relatively new business for us. The mission: acquire, exchange and produce esports and sports content that fits our OTT products’ audience, positioning and business goals.",
+  "actions": "Led a BD and production team: market research, content IP valuation, deal negotiation and end-to-end RFP proposals to guide investment while optimizing budget.",
+  "results": [
+    "Exchanged USD 500K in value-in-kind for Riot’s biggest media rights (LoL)",
+    "Production cost per unit reduced by more than 50%"
+  ],
+  "tags": [
+    "Riot Games",
+    "Garena",
+    "VNG Games",
+    "SOOP",
+    "Red Bull",
+    "Viettel",
+    "Funtap",
+    "EWC",
+    "Huya"
+  ],
+  "published": true,
+  "order_marketing": 5,
+  "order_product": 3,
+  "order_balanced": 2,
+  "body": ""
+}

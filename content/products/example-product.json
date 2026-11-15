@@ -1,0 +1,9 @@
+{
+  "name": "Example product (replace me)",
+  "network": "shopee",
+  "url": "https://shopee.vn/",
+  "image": "",
+  "price": "199.000đ",
+  "note": "Short reason why you recommend it.",
+  "button_label": ""
+}

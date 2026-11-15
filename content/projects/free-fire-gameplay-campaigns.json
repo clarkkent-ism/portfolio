@@ -1,0 +1,56 @@
+{
+  "title": "Gameplay campaigns and always-on content for Free Fire",
+  "role": "Project Lead (Gameplay) & Product Marketing",
+  "company": "Garena",
+  "period": "12/2022 – 08/2023",
+  "icon": "FF",
+  "card_name": "Garena Free Fire",
+  "card_note": "Gameplay campaigns, VN & PK",
+  "thumb": "/assets/uploads/ff-gameplay-thumb.jpg",
+  "thumb_alt": "Free Fire OB41 patch update key visual",
+  "slides": [
+    {
+      "image": "/assets/uploads/ff-gameplay-1.jpg",
+      "alt": "Free Fire OB41 patch update key visual"
+    },
+    {
+      "image": "/assets/uploads/ff-gameplay-2.jpg",
+      "alt": "Free Fire OB40 patch update key visual"
+    },
+    {
+      "image": "/assets/uploads/ff-gameplay-3.jpg",
+      "alt": "Free Fire OB39 patch update key visual"
+    }
+  ],
+  "metrics": [
+    {
+      "value": "+75%",
+      "label": "DAU in a peak campaign"
+    },
+    {
+      "value": "+21%",
+      "label": "recovery"
+    },
+    {
+      "value": "+54%",
+      "label": "core feature adoption"
+    },
+    {
+      "value": "+500%",
+      "label": "earned viewership (+280M)"
+    }
+  ],
+  "challenge": "Constant renewal of the gameplay is what keeps players engaged, so every patch update needed a campaign that brought lapsed users back, taught new items and kept community sentiment positive.",
+  "actions": "Ran 8+ DAU, revenue and patch-update campaigns for Vietnam and Pakistan, set goals against product metrics, and reorganized team workflow and content strategy.",
+  "results": [
+    "Recovery +21%, core feature adoption +54%, earned viewership +500% (+280M)",
+    "Created the “Mất Ngủ Cùng FreeFire” series: 10M+ views in 2 months, still running after 3 years",
+    "1B views on the TikTok UGC hashtag"
+  ],
+  "tags": [],
+  "published": true,
+  "order_marketing": 3,
+  "order_product": 2,
+  "order_balanced": 4,
+  "body": ""
+}

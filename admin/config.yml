@@ -1,0 +1,288 @@
+# ============================================================
+#  CMS config (Sveltia CMS, compatible with Decap CMS)
+#  >>> Sau khi tạo repo GitHub, đổi 2 dòng có chữ  USERNAME/REPO  <<<
+# ============================================================
+backend:
+  name: github
+  repo: USERNAME/REPO        # ví dụ: hungnguyen/portfolio
+  branch: main
+
+site_url: https://USERNAME.github.io/REPO/   # link "View Live Site" trong CMS
+display_url: https://USERNAME.github.io/REPO/
+publish_mode: simple         # Save = commit thẳng vào main -> GitHub Actions tự build lại (~1-2 phút)
+
+media_folder: assets/uploads # ảnh upload lưu ở đây
+public_folder: /assets/uploads
+
+collections:
+  # ---------------------------------------------------------
+  # 1) TRANG CHỦ: Hero + cài đặt chung + kinh nghiệm + kỹ năng
+  # ---------------------------------------------------------
+  - name: home
+    label: "Trang chủ"
+    format: json
+    files:
+      - name: hero
+        label: "Hero (giới thiệu + số liệu)"
+        file: content/hero.json
+        fields:
+          - { label: "Dòng vai trò (dưới tên)", name: role, widget: string }
+          - { label: "Ảnh chân dung", name: image, widget: image, hint: "Tỉ lệ 4:5 (ví dụ 640×800), dưới 200KB." }
+          - { label: "Mô tả ảnh (alt)", name: image_alt, widget: string, required: false }
+          - { label: "Full story", name: full_story, widget: markdown, hint: "Nút 'Full story' ở trang chủ. Cách 1 dòng trống để tách đoạn." }
+          - label: "Summary (các gạch đầu dòng)"
+            name: summary
+            widget: list
+            field: { label: "Ý", name: text, widget: text }
+            hint: "Nút 'Summary' ở trang chủ."
+          - label: "4 số – view MARKETING (cam)"
+            name: stats_marketing
+            widget: list
+            min: 4
+            max: 4
+            summary: "{{fields.value}} — {{fields.label}}"
+            fields:
+              - { label: "Số", name: value, widget: string }
+              - { label: "Mô tả", name: label, widget: string }
+          - label: "4 số – view PRODUCT (xanh)"
+            name: stats_product
+            widget: list
+            min: 4
+            max: 4
+            summary: "{{fields.value}} — {{fields.label}}"
+            fields:
+              - { label: "Số", name: value, widget: string }
+              - { label: "Mô tả", name: label, widget: string }
+          - label: "4 số – view BALANCED (sáng)"
+            name: stats_balanced
+            widget: list
+            min: 4
+            max: 4
+            summary: "{{fields.value}} — {{fields.label}}"
+            fields:
+              - { label: "Số", name: value, widget: string }
+              - { label: "Mô tả", name: label, widget: string }
+
+      - name: site
+        label: "Cài đặt chung (liên hệ, Spotify, blog...)"
+        file: content/site.json
+        fields:
+          - { label: "Tên", name: name, widget: string }
+          - { label: "Biệt danh", name: alias, widget: string, required: false }
+          - { label: "Chức danh (SEO)", name: jobTitle, widget: string, required: false }
+          - { label: "Tiêu đề trang (SEO)", name: title, widget: string }
+          - { label: "Mô tả trang (SEO)", name: description, widget: text }
+          - { label: "Ảnh chia sẻ (Facebook/LinkedIn)", name: ogImage, widget: image, required: false }
+          - { label: "Địa chỉ website", name: siteUrl, widget: string, required: false, hint: "Để trống nếu dùng GitHub Pages (tự nhận). Điền https://tenmien.com khi có tên miền riêng." }
+          - { label: "Ngôn ngữ trang", name: lang, widget: string, default: en }
+          - { label: "Email", name: email, widget: string }
+          - { label: "Số điện thoại (dạng +84...)", name: phone, widget: string, required: false }
+          - { label: "Số điện thoại (hiển thị)", name: phoneDisplay, widget: string, required: false }
+          - { label: "LinkedIn URL", name: linkedin, widget: string, required: false }
+          - label: "View mặc định"
+            name: defaultView
+            widget: select
+            options: [{ label: "Marketing (cam)", value: marketing }, { label: "Product (xanh)", value: product }, { label: "Balanced (sáng)", value: balanced }]
+          - { label: "Số thẻ project lớn ở trang chủ", name: featuredCount, widget: number, value_type: int, min: 1, max: 12, default: 5, hint: "Các project xếp sau số này (hoặc không có thumbnail) sẽ nằm ở 'More things I shipped'." }
+          - label: "Chữ chạy ngang (marquee)"
+            name: marquee
+            widget: list
+            field: { label: "Từ khóa", name: text, widget: string }
+          - label: "Mục My work"
+            name: work
+            widget: object
+            fields:
+              - { label: "Đoạn giới thiệu", name: intro, widget: text }
+              - label: "How I work (3 ô)"
+                name: how
+                widget: list
+                summary: "{{fields.title}}"
+                fields:
+                  - { label: "Tiêu đề", name: title, widget: string }
+                  - { label: "Nội dung", name: text, widget: text }
+              - { label: "Tiêu đề khối 'More'", name: moreTitle, widget: string }
+              - { label: "Dòng nhỏ khối 'More'", name: moreKicker, widget: string }
+          - label: "Spotify playlist"
+            name: spotify
+            widget: object
+            fields:
+              - { label: "Bật mục Spotify", name: enabled, widget: boolean, default: false }
+              - { label: "Tiêu đề mục", name: title, widget: string }
+              - { label: "Giới thiệu ngắn", name: intro, widget: text, required: false }
+              - label: "Danh sách playlist"
+                name: playlists
+                widget: list
+                summary: "{{fields.title}}"
+                fields:
+                  - { label: "Tên hiển thị", name: title, widget: string, required: false }
+                  - { label: "Link Spotify", name: url, widget: string, hint: "Spotify > playlist > ... > Share > Copy link. Nhận cả album, track, podcast." }
+                  - { label: "Chiều cao player (px)", name: height, widget: number, value_type: int, default: 352, required: false, hint: "352 = đầy đủ, 152 = gọn." }
+          - label: "Blog"
+            name: blog
+            widget: object
+            fields:
+              - { label: "Bật blog", name: enabled, widget: boolean, default: true }
+              - { label: "Tiêu đề", name: title, widget: string }
+              - { label: "Tên trên menu", name: navLabel, widget: string, required: false }
+              - { label: "Giới thiệu", name: intro, widget: text, required: false }
+              - { label: "Số bài mới ở trang chủ", name: latestCount, widget: number, value_type: int, default: 3 }
+              - { label: "Lời công khai affiliate", name: disclosure, widget: text, hint: "Hiện trên mọi bài có sản phẩm affiliate. Xem quy định của Shopee/Amazon về câu bắt buộc." }
+          - { label: "Dòng chân trang", name: footerNote, widget: text, required: false }
+
+      - name: experience
+        label: "Experience (kinh nghiệm)"
+        file: content/experience.json
+        fields:
+          - label: "Các vị trí (mới nhất ở trên)"
+            name: items
+            widget: list
+            summary: "{{fields.period}} — {{fields.title}}"
+            fields:
+              - { label: "Thời gian", name: period, widget: string }
+              - { label: "Chức danh", name: title, widget: string }
+              - { label: "Công ty", name: company, widget: string }
+              - label: "Thành tích"
+                name: bullets
+                widget: list
+                field: { label: "Ý", name: text, widget: text }
+
+      - name: skills
+        label: "Skills (kỹ năng)"
+        file: content/skills.json
+        fields:
+          - label: "Nhóm kỹ năng"
+            name: groups
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Tên nhóm", name: title, widget: string }
+              - { label: "Chiếm cả hàng", name: wide, widget: boolean, default: false }
+              - { label: "Thứ tự – Marketing", name: order_marketing, widget: number, value_type: int, default: 9 }
+              - { label: "Thứ tự – Product", name: order_product, widget: number, value_type: int, default: 9 }
+              - { label: "Thứ tự – Balanced", name: order_balanced, widget: number, value_type: int, default: 9 }
+              - label: "Kỹ năng"
+                name: items
+                widget: list
+                field: { label: "Kỹ năng", name: text, widget: string }
+
+  # ---------------------------------------------------------
+  # 2) PROJECT (thẻ lớn + "More things I shipped" dùng chung 1 danh sách)
+  # ---------------------------------------------------------
+  - name: projects
+    label: "Projects"
+    label_singular: "Project"
+    description: "Thứ tự nhỏ = lên trước. N project đầu (mặc định 5, có thumbnail) = thẻ lớn. Còn lại = 'More things I shipped'. Mỗi project đều có trang riêng."
+    folder: content/projects
+    extension: json
+    format: json
+    create: true
+    slug: "{{slug}}"
+    identifier_field: title
+    summary: "{{title}}"
+    sortable_fields: [title, order_marketing, order_product, order_balanced]
+    fields:
+      - { label: "Hiển thị", name: published, widget: boolean, default: true }
+      - { label: "Tiêu đề", name: title, widget: string }
+      - { label: "Vai trò", name: role, widget: string, required: false, hint: "Product Manager" }
+      - { label: "Công ty", name: company, widget: string, required: false, hint: "VTV Live" }
+      - { label: "Thời gian", name: period, widget: string, required: false, hint: "10/2025 – 09/2026" }
+      - { label: "Icon (2 chữ cái)", name: icon, widget: string, required: false, hint: "Ví dụ ON, FF, VL" }
+      - { label: "Tên trên chân thẻ", name: card_name, widget: string, required: false, hint: "Ví dụ: ON Live" }
+      - { label: "Mô tả ngắn trên chân thẻ", name: card_note, widget: string, required: false, hint: "1 dòng. Nếu dài hơn thẻ, chữ sẽ tự chạy ngang khi rê chuột." }
+      - { label: "Thumbnail 1:1", name: thumb, widget: image, required: false, hint: "Vuông 800×800, dưới 150KB. Không có thumbnail = chỉ hiện ở 'More things I shipped'." }
+      - { label: "Mô tả thumbnail (alt)", name: thumb_alt, widget: string, required: false }
+      - label: "Slides 16:9"
+        name: slides
+        widget: list
+        required: false
+        summary: "{{fields.alt}}"
+        hint: "1920×1080 (hoặc 1120×630), mỗi ảnh dưới 300KB."
+        fields:
+          - { label: "Ảnh", name: image, widget: image }
+          - { label: "Mô tả ảnh (alt)", name: alt, widget: string, required: false }
+      - label: "Metrics (1–4 số)"
+        name: metrics
+        widget: list
+        required: false
+        max: 4
+        summary: "{{fields.value}} — {{fields.label}}"
+        fields:
+          - { label: "Số", name: value, widget: string }
+          - { label: "Mô tả", name: label, widget: string }
+      - { label: "Challenge", name: challenge, widget: text, required: false }
+      - { label: "What I did", name: actions, widget: text, required: false }
+      - label: "Results"
+        name: results
+        widget: list
+        required: false
+        field: { label: "Kết quả", name: text, widget: text }
+      - label: "Tags / đối tác (hiện dạng chip)"
+        name: tags
+        widget: list
+        required: false
+        field: { label: "Tag", name: text, widget: string }
+      - { label: "Nội dung thêm (trang riêng)", name: body, widget: markdown, required: false, hint: "Chỉ hiện ở trang riêng của project, bên dưới phần trên." }
+      - { label: "Thứ tự – Marketing", name: order_marketing, widget: number, value_type: int, default: 99, min: 1 }
+      - { label: "Thứ tự – Product", name: order_product, widget: number, value_type: int, default: 99, min: 1 }
+      - { label: "Thứ tự – Balanced", name: order_balanced, widget: number, value_type: int, default: 99, min: 1 }
+
+  # ---------------------------------------------------------
+  # 3) BLOG
+  # ---------------------------------------------------------
+  - name: posts
+    label: "Blog posts"
+    label_singular: "Bài viết"
+    folder: content/posts
+    extension: json
+    format: json
+    create: true
+    slug: "{{slug}}"
+    identifier_field: title
+    summary: "{{title}}"
+    sortable_fields: [date, title]
+    fields:
+      - { label: "Đăng bài", name: published, widget: boolean, default: false, hint: "Tắt = nháp, chưa hiện ra ngoài." }
+      - { label: "Tiêu đề", name: title, widget: string }
+      - { label: "Ngày", name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Tóm tắt", name: excerpt, widget: text, required: false }
+      - { label: "Ảnh bìa 16:9", name: cover, widget: image, required: false }
+      - { label: "Mô tả ảnh bìa", name: cover_alt, widget: string, required: false }
+      - label: "Tags"
+        name: tags
+        widget: list
+        required: false
+        field: { label: "Tag", name: text, widget: string }
+      - label: "Sản phẩm affiliate trong bài"
+        name: products
+        widget: relation
+        collection: products
+        search_fields: [name]
+        value_field: "{{slug}}"
+        display_fields: [name]
+        multiple: true
+        required: false
+        hint: "Hiện thành khung 'Products in this post' cuối bài. Muốn chèn giữa bài: viết [[product:tên-file-sản-phẩm]] trên một dòng riêng."
+      - { label: "Nội dung", name: body, widget: markdown }
+
+  - name: products
+    label: "Sản phẩm affiliate"
+    label_singular: "Sản phẩm"
+    folder: content/products
+    extension: json
+    format: json
+    create: true
+    slug: "{{slug}}"
+    identifier_field: name
+    summary: "{{name}}"
+    fields:
+      - { label: "Tên sản phẩm", name: name, widget: string }
+      - label: "Sàn"
+        name: network
+        widget: select
+        options: [{ label: Shopee, value: shopee }, { label: Amazon, value: amazon }, { label: Lazada, value: lazada }, { label: "TikTok Shop", value: tiktok }, { label: Khác, value: other }]
+        default: shopee
+      - { label: "Link affiliate", name: url, widget: string, hint: "Dán link tiếp thị liên kết (không phải link thường)." }
+      - { label: "Ảnh sản phẩm (vuông)", name: image, widget: image, required: false }
+      - { label: "Giá hiển thị", name: price, widget: string, required: false }
+      - { label: "Ghi chú / lý do giới thiệu", name: note, widget: text, required: false }
+      - { label: "Chữ trên nút", name: button_label, widget: string, required: false, hint: "Mặc định: View on Shopee." }

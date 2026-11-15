@@ -1,0 +1,79 @@
+{
+  "groups": [
+    {
+      "title": "Product",
+      "wide": false,
+      "order_marketing": 2,
+      "order_product": 1,
+      "order_balanced": 1,
+      "items": [
+        "Product vision & roadmap",
+        "Go-to-market",
+        "Feature prioritization",
+        "Business model & P&L",
+        "User research",
+        "Customer segmentation",
+        "Product metrics",
+        "Risk management"
+      ]
+    },
+    {
+      "title": "Marketing",
+      "wide": false,
+      "order_marketing": 1,
+      "order_product": 4,
+      "order_balanced": 2,
+      "items": [
+        "Integrated campaigns",
+        "Esports marketing",
+        "Community",
+        "KOL / influencer",
+        "Social media",
+        "Content strategy",
+        "Video & creative direction",
+        "Microsites",
+        "Facebook & YouTube ads"
+      ]
+    },
+    {
+      "title": "Business development",
+      "wide": false,
+      "order_marketing": 3,
+      "order_product": 3,
+      "order_balanced": 3,
+      "items": [
+        "Market research",
+        "Content IP valuation",
+        "RFP & negotiation",
+        "Strategic partnerships",
+        "Revenue sharing"
+      ]
+    },
+    {
+      "title": "Tools",
+      "wide": false,
+      "order_marketing": 4,
+      "order_product": 2,
+      "order_balanced": 4,
+      "items": [
+        "Google Analytics",
+        "User surveys & sentiment tracking"
+      ]
+    },
+    {
+      "title": "Management & leadership",
+      "wide": true,
+      "order_marketing": 5,
+      "order_product": 5,
+      "order_balanced": 5,
+      "items": [
+        "Cross-functional leadership",
+        "Stakeholder management",
+        "SOP building",
+        "Team workflow design",
+        "Creative & production management",
+        "KOL & creator ecosystem management"
+      ]
+    }
+  ]
+}

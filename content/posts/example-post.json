@@ -1,0 +1,16 @@
+{
+  "title": "Example post: my desk setup (draft)",
+  "published": false,
+  "date": "2026-11-14",
+  "excerpt": "This is a draft that shows how affiliate products are embedded in a post. Set Published to on and edit it, or delete it.",
+  "cover": "",
+  "cover_alt": "",
+  "tags": [
+    "gear",
+    "example"
+  ],
+  "products": [
+    "example-product"
+  ],
+  "body": "## Why this setup\n\nWrite your post in **Markdown**. Put an affiliate product card anywhere with a line like this:\n\n[[product:example-product]]\n\nProducts you list in the *Products* field also appear in a box at the end of the post."
+}

@@ -1,0 +1,64 @@
+{
+  "siteUrl": "",
+  "lang": "en",
+  "name": "Hung Nguyen",
+  "alias": "CK",
+  "title": "Hung Nguyen (CK) – Product Manager & Marketing Lead | Gaming & Esports",
+  "description": "Portfolio of Hung Nguyen (CK): Product Manager, Marketing Lead and Business Development professional with 7+ years in gaming, esports and digital products (Garena Free Fire, VTV Live / ON Live), open to roles across industries.",
+  "jobTitle": "Product Manager",
+  "email": "hungnguyen94386@gmail.com",
+  "phone": "+84326094146",
+  "phoneDisplay": "+84 326 094 146",
+  "linkedin": "https://www.linkedin.com/in/hungnguyenck",
+  "ogImage": "/assets/uploads/hero.jpg",
+  "defaultView": "marketing",
+  "featuredCount": 5,
+  "marquee": [
+    "Product vision",
+    "Go-to-market",
+    "Esports marketing",
+    "Community",
+    "KOL partnerships",
+    "P&L",
+    "Growth",
+    "Live streaming"
+  ],
+  "work": {
+    "intro": "Growth came from aligning product, marketing and monetization around business goals and customer needs. Tap a card to see the details.",
+    "how": [
+      {
+        "title": "Data-driven",
+        "text": "Goals tied to product metrics: DAU, MAU, ARPPU, pay rate, CAC, retention."
+      },
+      {
+        "title": "User-first",
+        "text": "Surveys, community feedback and segmentation before prioritization."
+      },
+      {
+        "title": "Cross-functional",
+        "text": "Led and coordinated teams of 15–20 across product, marketing, content, KOL and BD."
+      }
+    ],
+    "moreTitle": "More things I shipped",
+    "moreKicker": "Beyond the case studies"
+  },
+  "spotify": {
+    "enabled": false,
+    "title": "On repeat",
+    "intro": "What I listen to while working. Press play.",
+    "playlists": [
+      {
+        "title": "Example playlist",
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DXcBWIGoYBM5M"
+      }
+    ]
+  },
+  "blog": {
+    "enabled": true,
+    "title": "Writing",
+    "intro": "Notes on product, marketing and the gear I actually use.",
+    "disclosure": "Disclosure: some links on this page are affiliate links. If you buy through them I may earn a small commission at no extra cost to you. I only recommend things I use or would use.",
+    "latestCount": 3
+  },
+  "footerNote": "© 2026 Hung Nguyen (CK). Some metrics are approximate to protect confidential business information."
+}
