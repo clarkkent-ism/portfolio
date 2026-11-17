@@ -1,16 +1,16 @@
 {
-  "siteUrl": "",
-  "lang": "en",
   "name": "Hung Nguyen",
   "alias": "CK",
+  "jobTitle": "Product Manager",
   "title": "Hung Nguyen (CK) – Product Manager & Marketing Lead | Gaming & Esports",
   "description": "Portfolio of Hung Nguyen (CK): Product Manager, Marketing Lead and Business Development professional with 7+ years in gaming, esports and digital products (Garena Free Fire, VTV Live / ON Live), open to roles across industries.",
-  "jobTitle": "Product Manager",
+  "ogImage": "/assets/uploads/hero.jpg",
+  "siteUrl": "",
+  "lang": "en",
   "email": "hungnguyen94386@gmail.com",
   "phone": "+84326094146",
   "phoneDisplay": "+84 326 094 146",
   "linkedin": "https://www.linkedin.com/in/hungnguyenck",
-  "ogImage": "/assets/uploads/hero.jpg",
   "defaultView": "marketing",
   "featuredCount": 5,
   "marquee": [
@@ -43,22 +43,24 @@
     "moreKicker": "Beyond the case studies"
   },
   "spotify": {
-    "enabled": false,
+    "enabled": true,
     "title": "On repeat",
-    "intro": "What I listen to while working. Press play.",
+    "intro": "Albert Einstein: \"If I were not a physicist, I would probably be a musician. I often think in music. I live my daydreams in music.\"",
     "playlists": [
       {
-        "title": "Example playlist",
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DXcBWIGoYBM5M"
+        "title": "CK-ism",
+        "url": "https://open.spotify.com/playlist/172NxYzs64UimjtixKV1vB?si=z5Nic6EnTRSgvC1b7I7ncA",
+        "height": 352
       }
     ]
   },
   "blog": {
     "enabled": true,
     "title": "Writing",
+    "navLabel": "",
     "intro": "Notes on product, marketing and the gear I actually use.",
-    "disclosure": "Disclosure: some links on this page are affiliate links. If you buy through them I may earn a small commission at no extra cost to you. I only recommend things I use or would use.",
-    "latestCount": 3
+    "latestCount": 3,
+    "disclosure": "Disclosure: some links on this page are affiliate links. If you buy through them I may earn a small commission at no extra cost to you. I only recommend things I use or would use."
   },
   "footerNote": "© 2026 Hung Nguyen (CK). Some metrics are approximate to protect confidential business information."
 }
