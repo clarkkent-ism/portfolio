@@ -8,13 +8,12 @@
       "order_balanced": 1,
       "items": [
         "Product vision & roadmap",
-        "Go-to-market",
-        "Feature prioritization",
-        "Business model & P&L",
-        "User research",
-        "Customer segmentation",
+        "Go-to-market Strategy",
+        "Feature Prioritization",
+        "User Research & Segmentation",
         "Product metrics",
-        "Risk management"
+        "Risk management",
+        "Timeline Management"
       ]
     },
     {
@@ -24,29 +23,26 @@
       "order_product": 4,
       "order_balanced": 2,
       "items": [
-        "Integrated campaigns",
-        "Esports marketing",
-        "Community",
-        "KOL / influencer",
-        "Social media",
-        "Content strategy",
-        "Video & creative direction",
-        "Microsites",
-        "Facebook & YouTube ads"
+        "Integrated marketing campaigns",
+        "Marketing Strategy",
+        "KOL / influencer Evaluation",
+        "Community Building",
+        "Social media management",
+        "Creative Direction & Production",
+        "Microsites Building & Management",
+        "UA Marketing (Facebook & Google Ads)"
       ]
     },
     {
-      "title": "Business development",
+      "title": "Business Development",
       "wide": false,
       "order_marketing": 3,
       "order_product": 3,
       "order_balanced": 3,
       "items": [
         "Market research",
-        "Content IP valuation",
-        "RFP & negotiation",
-        "Strategic partnerships",
-        "Revenue sharing"
+        "RFP Developement",
+        "Strategic partnerships & Negotiation"
       ]
     },
     {
@@ -57,7 +53,9 @@
       "order_balanced": 4,
       "items": [
         "Google Analytics",
-        "User surveys & sentiment tracking"
+        "Workspace: Trello, Slack, G Suite, Lark, Discord,...",
+        "(Intermediate) Adobe Photoshop, SQL, Power BI",
+        "(Novice) Python, ML"
       ]
     },
     {
@@ -72,7 +70,8 @@
         "SOP building",
         "Team workflow design",
         "Creative & production management",
-        "KOL & creator ecosystem management"
+        "KOL & creator ecosystem management",
+        "Business model & P&L"
       ]
     }
   ]
