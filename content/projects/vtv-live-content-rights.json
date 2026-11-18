@@ -1,4 +1,5 @@
 {
+  "published": true,
   "title": "Esports content rights and strategic partnerships",
   "role": "Business Development Manager",
   "company": "VTV Live",
@@ -36,11 +37,12 @@
       "label": "production cost per unit"
     }
   ],
-  "challenge": "Esports content distribution and production was a relatively new business for us. The mission: acquire, exchange and produce esports and sports content that fits our OTT products’ audience, positioning and business goals.",
-  "actions": "Led a BD and production team: market research, content IP valuation, deal negotiation and end-to-end RFP proposals to guide investment while optimizing budget.",
+  "challenge": "Esports content distribution and production is a relatively new & niche business but currently a growing trend in Vietnam market. The mission: acquire, exchange, and produce esports and sports content that best fits our OTT products’ audience, positioning, revenue-generating opportunities within the business model.",
+  "actions": "I led a BD & Production team, conducted extensive market research, analyzed trends and opportunities, quantify content IPs to support decision-making on investment strategy, brand value and revenue-generating potential, established & developed strategic partnerships with publishers, organizers (Garena, Riot Games, Redbull…). optimizing budget while driving market expansion.",
   "results": [
-    "Exchanged USD 500K in value-in-kind for Riot’s biggest media rights (LoL)",
-    "Production cost per unit reduced by more than 50%"
+    "Secured full-year content licenses via a media exchange partnership with Riot Games (no cash outlay required)",
+    "Reduced content production cost >50% by improving technical solution & team workflow.",
+    "Won 2 strategic RFPs with >USD 250K in revenue"
   ],
   "tags": [
     "Riot Games",
@@ -48,14 +50,12 @@
     "VNG Games",
     "SOOP",
     "Red Bull",
-    "Viettel",
     "Funtap",
     "EWC",
     "Huya"
   ],
-  "published": true,
+  "body": "",
   "order_marketing": 5,
   "order_product": 3,
-  "order_balanced": 2,
-  "body": ""
+  "order_balanced": 2
 }
