@@ -14,29 +14,30 @@
   "defaultView": "marketing",
   "featuredCount": 5,
   "marquee": [
-    "Product vision",
-    "Go-to-market",
-    "Esports marketing",
-    "Community",
-    "KOL partnerships",
-    "P&L",
+    "Product Management",
+    "Go-to-market Strategy",
+    "Integrated Marketing Campaigns",
+    "Community Building & Management",
+    "Strategic Partnership",
+    "P&L Management",
     "Growth",
-    "Live streaming"
+    "Live streaming",
+    "Have a nice day to everyone reading this hehe"
   ],
   "work": {
     "intro": "Growth came from aligning product, marketing and monetization around business goals and customer needs. Tap a card to see the details.",
     "how": [
       {
         "title": "Data-driven",
-        "text": "Goals tied to product metrics: DAU, MAU, ARPPU, pay rate, CAC, retention."
+        "text": "Goals tied to metrics & numbers: DAU, ARPPU, pay rate, CAC, retention, sentiment score..."
       },
       {
         "title": "User-first",
-        "text": "Surveys, community feedback and segmentation before prioritization."
+        "text": "Market Research, Surveys, community feedback, FGD, and segmentation before prioritization."
       },
       {
         "title": "Cross-functional",
-        "text": "Led and coordinated teams of 15–20 across product, marketing, content, KOL and BD."
+        "text": "Communicating, assuming good intent, connecting people, forming a team to build greater things"
       }
     ],
     "moreTitle": "More things I shipped",
