@@ -1,11 +1,12 @@
 {
+  "published": true,
   "title": "Building a Free Fire esports ecosystem in Pakistan from scratch",
-  "role": "Esports Marketing Lead",
+  "role": "Esports Marketing",
   "company": "Garena",
   "period": "11/2020 – 12/2022",
   "icon": "FF",
-  "card_name": "Garena Free Fire",
-  "card_note": "Esports ecosystem, Pakistan",
+  "card_name": "Esports Marketing Lead cum Operation",
+  "card_note": "Esports ecosystem, Pakistan Market",
   "thumb": "/assets/uploads/ff-pakistan-thumb.jpg",
   "thumb_alt": "Players and staff celebrating at an offline Free Fire qualifier in Pakistan",
   "slides": [
@@ -25,11 +26,11 @@
   "metrics": [
     {
       "value": "130M",
-      "label": "impressions"
+      "label": "impressions in a single campaign"
     },
     {
       "value": "$0.38",
-      "label": "CPM"
+      "label": "CPM (Optimized Ads)"
     },
     {
       "value": "14.3M",
@@ -40,17 +41,16 @@
       "label": "teams in FFPL 4, up from 864"
     }
   ],
-  "challenge": "Esports was a new concept in Pakistan, a niche market rich in traditional culture and religious beliefs, with pandemic limits, weak tournament infrastructure and a limited budget.",
-  "actions": "Built the esports and community ecosystem and its SOPs with a local production partner. Ran offline qualifiers in 6 cities chosen from user demographic data, KOL programs, event microsites, video production and paid media.",
+  "challenge": "Esports was a new concept in Pakistan, a niche market rich in traditional culture and religious beliefs, with pandemic limits, weak infrastructure and a limited budget.",
+  "actions": "Built the esports and community ecosystem and its SOPs with a local production partner. Ran A/B testing format, came up with offline qualifiers in 6 cities chosen from user demographic insights, \n\nBuilt from scratch: KOL programs, event microsites, tournament ecosystem\nExecuted end-to-end: video production, creative production, marketing campaigns, social media ecosystem",
   "results": [
     "Teams grew from 864 (FFPL 3) to 1,152 (FFPL 4); 5,000+ offline participants; 430K+ online reach per season",
     "#2 gaming trending and #25 general trending for the first-ever event in Pakistan",
     "Channels built from scratch: 600K YouTube, 320K Facebook, 80K Instagram"
   ],
   "tags": [],
-  "published": true,
+  "body": "",
   "order_marketing": 1,
   "order_product": 4,
-  "order_balanced": 3,
-  "body": ""
+  "order_balanced": 3
 }
