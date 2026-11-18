@@ -61,9 +61,9 @@
     {
       "title": "Management & leadership",
       "wide": true,
-      "order_marketing": 5,
-      "order_product": 5,
-      "order_balanced": 5,
+      "order_marketing": 3,
+      "order_product": 3,
+      "order_balanced": 3,
       "items": [
         "Cross-functional leadership",
         "Stakeholder management",
