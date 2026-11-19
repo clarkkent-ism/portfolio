@@ -1,10 +1,11 @@
 {
-  "title": "Relaunching ON Live as an esports & sports streaming platform",
+  "published": true,
+  "title": "Relaunching ON Live - An Esports & Sports specialized streaming platform",
   "role": "Product Manager",
   "company": "VTV Live",
   "period": "10/2025 – 09/2026",
   "icon": "ON",
-  "card_name": "ON Live",
+  "card_name": "Product Manager - ON Live",
   "card_note": "Esports & sports streaming platform",
   "thumb": "/assets/uploads/onlive-thumb.jpg",
   "thumb_alt": "ON Live new version launch banner showing the app on phone, tablet and laptop",
@@ -41,16 +42,15 @@
     }
   ],
   "challenge": "A VTVcab–SOOP product had lost momentum and market credibility at its previous launch: outdated UX, limited monetization, unclear vision, no metrics tracking, no content integrity tools.",
-  "actions": "Owned vision, roadmap, go-to-market, feature prioritization, business model and P&L. Pitched the business plan and won approval from the CEO and the full board. Led a 15–20 person team across product and operations, marketing, KOL and content, and BD.",
+  "actions": "Owned vision, roadmap, go-to-market, feature prioritization, business model and P&L. Pitched the business plan and won approval from the CEO. Led a 15–20-person team across product and operations, marketing, KOL.",
   "results": [
     "20K+ DAU (8,000+ logged in), 10–40% monthly growth",
-    "ARPPU above 100,000 VND, pay rate above 1.16%, CAC about 18,000 VND (under 0.7 USD)",
+    "ARPPU above 100,000 VND, pay rate >1.15%, CAC about 18,000 VND (under 0.7 USD)",
     "Purchase journey cut from 8 steps to 3; user sentiment up about 31%"
   ],
   "tags": [],
-  "published": true,
-  "order_marketing": 4,
+  "body": "",
+  "order_marketing": 1,
   "order_product": 1,
-  "order_balanced": 1,
-  "body": ""
+  "order_balanced": 1
 }
