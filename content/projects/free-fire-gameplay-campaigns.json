@@ -1,11 +1,12 @@
 {
+  "published": true,
   "title": "Gameplay campaigns and always-on content for Free Fire",
-  "role": "Project Lead (Gameplay) & Product Marketing",
+  "role": "Marketing",
   "company": "Garena",
   "period": "12/2022 – 08/2023",
   "icon": "FF",
-  "card_name": "Garena Free Fire",
-  "card_note": "Gameplay campaigns, VN & PK",
+  "card_name": "Project Lead (Gameplay) & Product Marketing",
+  "card_note": "Gameplay campaigns",
   "thumb": "/assets/uploads/ff-gameplay-thumb.jpg",
   "thumb_alt": "Free Fire OB41 patch update key visual",
   "slides": [
@@ -18,8 +19,12 @@
       "alt": "Free Fire OB40 patch update key visual"
     },
     {
-      "image": "/assets/uploads/ff-gameplay-3.jpg",
-      "alt": "Free Fire OB39 patch update key visual"
+      "image": "/assets/uploads/mkt.jpg",
+      "alt": ""
+    },
+    {
+      "image": "/assets/uploads/349019946_1267209530847020_2902268547835027400_n.jfif",
+      "alt": ""
     }
   ],
   "metrics": [
@@ -40,17 +45,18 @@
       "label": "earned viewership (+280M)"
     }
   ],
-  "challenge": "Constant renewal of the gameplay is what keeps players engaged, so every patch update needed a campaign that brought lapsed users back, taught new items and kept community sentiment positive.",
-  "actions": "Ran 8+ DAU, revenue and patch-update campaigns for Vietnam and Pakistan, set goals against product metrics, and reorganized team workflow and content strategy.",
+  "challenge": "The Vietnam market has seen negative feedback/backlash from users. Marketing efforts were too focused on driving sales, while failing to provide content marketing lines that educate or assist users with gameplay recognition & adoption (The core value of the game) with each pack update \n\nConstant renewal of the gameplay is what keeps players engaged, so every patch update needed a campaign that brought churn users back, taught new items and kept community sentiment positive.",
+  "actions": "Ran and generated 8+ gameplay marketing lines for each DAU, revenue and patch-update campaigns for Vietnam team, setting goals aligned with product metrics, and reorganized team workflow and content strategy.\n\nSuccessfully generated a unique gameplay series ('Mất Ngủ Cùng FreeFire') with high visibility on all official channels and the highest total views among all gameplay content series to date (>10M view after 2 months).",
   "results": [
     "Recovery +21%, core feature adoption +54%, earned viewership +500% (+280M)",
-    "Created the “Mất Ngủ Cùng FreeFire” series: 10M+ views in 2 months, still running after 3 years",
-    "1B views on the TikTok UGC hashtag"
+    "Created the “Mất Ngủ Cùng FreeFire” series: 10M+ views in 2 months, remains an always-on content series after 3 years until now, demonstrating its sustained audience value and long-term impact.",
+    ">1B views on the 2 TikTok UGC hashtags",
+    "Started a strategic idea called “Studio Collab” between FF and Content Creators with the purpose of utilizing KOL brands on publisher official channels to test their effectiveness compared to casual formal way, also simultaneously reduced the workload and increased the productivity of the in-house team.",
+    "DAU increase by 75%, revival +2.5% (after a losing streak), Recovery increase by 21%"
   ],
   "tags": [],
-  "published": true,
+  "body": "",
   "order_marketing": 3,
   "order_product": 2,
-  "order_balanced": 4,
-  "body": ""
+  "order_balanced": 4
 }
