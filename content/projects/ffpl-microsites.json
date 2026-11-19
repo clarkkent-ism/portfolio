@@ -1,19 +1,36 @@
 {
-  "title": "FFPL microsites",
   "published": true,
-  "company": "",
-  "role": "",
-  "period": "",
+  "title": "FFPL Event microsites (Fantasy/Prediction/General)",
+  "role": "Esports Marketing Lead",
+  "company": "Garena",
+  "period": "06/2021 - 12/2022",
   "icon": "MS",
-  "card_name": "",
-  "card_note": "Esports Home, Fantasy and Prediction events with an in-house dev team",
-  "thumb": "",
+  "card_name": "Esports Marketing Lead - Side project",
+  "card_note": "Building Esports Home, Fantasy and Prediction events microsites with cross-functional teams (BE, FE, Design,...)",
+  "thumb": "/assets/uploads/pasted-image-1795072164918.png",
   "thumb_alt": "",
   "slides": [],
-  "metrics": [],
+  "metrics": [
+    {
+      "value": "+600K",
+      "label": "users each Fantasy season"
+    },
+    {
+      "value": "+350K",
+      "label": "visit each month for Esports Home"
+    },
+    {
+      "value": "+500K",
+      "label": "users each Prediction season"
+    }
+  ],
   "challenge": "",
-  "actions": "",
-  "results": [],
+  "actions": "I built & renewed the mechanism of event microsites with an in-house development team every season and year. The objective were to:\n\n- Maintain the interest for audience/users, drive retention.\n- Utilize DAU events to boost the conversion rate of casual users (non-esports fans) into esports fans by providing extra motivation for them to watch and learn the tournaments.\n- Enhance awareness and providing information of the leagues\n- Foster interaction/engagement within the community.\n\n3 big sites that I built:\n\n- **Esports Home:** Where you can find news, information, standings, and tournament updates.\n- **Fantasy Event:** This is the event microsite where you can select player to build a dream team before matches start to earn points based on player’s performance and exchange rewards\n- **Prediction Event:** This is where you can make predictions about players and teams to earn points and exchange them for rewards.",
+  "results": [
+    "Esports home: 500K users at peak in season I, maintaining at >350K avg visits each month (in 1.5 years), with >900K avg sessions each season",
+    "Fantasy microsite (Dream Team Event): 650K users at peak, avg 600K users, with total sessions increasing by 1.8 times each season, average duration ~2 minutes",
+    "Prediction microsite: 700K users at peak, avg 500K users, with total sessions increasing by ~1.35 times each season, average duration 1.10 minutes"
+  ],
   "tags": [],
   "body": "",
   "order_marketing": 6,
