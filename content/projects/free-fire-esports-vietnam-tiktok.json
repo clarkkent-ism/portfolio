@@ -1,22 +1,15 @@
 {
-  "title": "Launching Free Fire Esports Vietnam on TikTok",
+  "published": true,
+  "title": "Launching Free Fire Esports Vietnam on TikTok with >1B views",
   "role": "Marketing",
   "company": "Garena",
   "period": "09/2019 – 12/2020",
   "icon": "FF",
   "card_name": "Garena Free Fire",
   "card_note": "Esports on TikTok, Vietnam",
-  "thumb": "/assets/uploads/ff-tiktok-thumb.jpg",
+  "thumb": "/assets/uploads/118690779_1240949006279451_1444195548543246832_n.jpg",
   "thumb_alt": "Free Fire Esports Vietnam 2020 final, ranked #1 on YouTube Gaming trending",
   "slides": [
-    {
-      "image": "/assets/uploads/ff-tiktok-1.jpg",
-      "alt": "Free Fire Esports Vietnam 2020 final, ranked #1 on YouTube Gaming trending"
-    },
-    {
-      "image": "/assets/uploads/ff-tiktok-2.jpg",
-      "alt": "Buzzmetrics Social Index Top 10 campaigns chart showing Free Fire in 2020"
-    },
     {
       "image": "/assets/uploads/ff-tiktok-3.jpg",
       "alt": "TikTok hashtag page for #khoanhkhacesports"
@@ -34,22 +27,17 @@
     {
       "value": "60+",
       "label": "videos in one month"
-    },
-    {
-      "value": "1M",
-      "label": "fan page likes"
     }
   ],
   "challenge": "TikTok was gaining ground in Vietnam and matched the Free Fire audience, but Free Fire Esports had no channel there and no esports hashtag challenge existed in the market.",
-  "actions": "Spotted TikTok’s fit with the target audience, launched the channel in September 2020, and partnered with TikTok on #khoanhkhacesports, producing 60+ videos in one month.",
+  "actions": "Spotted TikTok’s fit with the target audience, launched the channel in September 2020, and partnered with TikTok on #khoanhkhacesports hashtag challenge, producing 60+ videos per month",
   "results": [
     "About 350K followers in 4 months",
-    "Fan page grown to 1M likes; 2 campaigns in Buzzmetrics’ monthly Top 10 (2020); #1 Gaming and #3 YouTube trending"
+    "Esports first-ever +1 billion views hashtag challenge on TikTok"
   ],
   "tags": [],
-  "published": true,
+  "body": "",
   "order_marketing": 2,
   "order_product": 5,
-  "order_balanced": 5,
-  "body": ""
+  "order_balanced": 5
 }
