@@ -1,18 +1,39 @@
 {
-  "title": "Player identity shoots",
   "published": true,
-  "company": "",
-  "role": "",
-  "period": "",
-  "icon": "PI",
-  "card_name": "",
+  "title": "Creative Production: Building Esports Identities, Marketing material beyond the competition",
+  "role": "Esports Marketing Lead",
+  "company": "Garena",
+  "period": "2021-2022",
+  "icon": "CP",
+  "card_name": "Creative Strategy & Brand Development",
   "card_note": "Pre-season media shoots for FFPL teams",
-  "thumb": "",
+  "thumb": "/assets/uploads/52834217026_94b3b19a10_c.jpg",
   "thumb_alt": "",
-  "slides": [],
+  "slides": [
+    {
+      "image": "/assets/uploads/52834220021_9a516414b2_c.jpg",
+      "alt": ""
+    },
+    {
+      "image": "/assets/uploads/52834217076_2178a81c00_c.jpg",
+      "alt": ""
+    },
+    {
+      "image": "/assets/uploads/52834623960_1799289345_c.jpg",
+      "alt": ""
+    },
+    {
+      "image": "/assets/uploads/52834627535_141b571758_c.jpg",
+      "alt": ""
+    },
+    {
+      "image": "/assets/uploads/52833653927_e39d3247da_c.jpg",
+      "alt": ""
+    }
+  ],
   "metrics": [],
-  "challenge": "",
-  "actions": "",
+  "challenge": "With challenges including the pandemic, limited tournament infrastructure and budget constraints, I introduced a pre-season media production approach to create a consistent pool of player content, fulfilling media requirements while building a stronger and more recognizable & consistent player identity over time.",
+  "actions": "Like in other traditional sports, Esports players are representative and influential faces of the industry. My role was to shape and elevate Free Fire players' identities through a cohesive creative direction, making them more professional, competitive and distinctive while preserving the voice of the younger generation and the authenticity of the community.\n\nTo bring this vision to life, I developed creative media concepts that balanced brand objectives, audience relevance and execution feasibility.",
   "results": [],
   "tags": [],
   "body": "",
