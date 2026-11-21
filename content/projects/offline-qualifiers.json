@@ -1,22 +1,47 @@
 {
-  "title": "Offline qualifiers",
   "published": true,
-  "company": "",
-  "role": "",
-  "period": "",
+  "title": "Biggest Offline qualifiers Event for Pakistan Market",
+  "role": "Esports Marketing Lead",
+  "company": "Garena",
+  "period": "2022",
   "icon": "OQ",
   "card_name": "",
   "card_note": "6 cities in Pakistan, 5,000+ offline participants",
-  "thumb": "",
+  "thumb": "/assets/uploads/pasted-image-1795260558481.png",
   "thumb_alt": "",
-  "slides": [],
+  "slides": [
+    {
+      "image": "/assets/uploads/pasted-image-1795260250224.png",
+      "alt": ""
+    },
+    {
+      "image": "/assets/uploads/pasted-image-1795260273109.png",
+      "alt": ""
+    },
+    {
+      "image": "/assets/uploads/pasted-image-1795260504076.png",
+      "alt": ""
+    },
+    {
+      "image": "/assets/uploads/pasted-image-1795260530957.png",
+      "alt": ""
+    },
+    {
+      "image": "/assets/uploads/pasted-image-1795260558481.png",
+      "alt": ""
+    },
+    {
+      "image": "/assets/uploads/pasted-image-1795260558481.png",
+      "alt": ""
+    }
+  ],
   "metrics": [],
   "challenge": "",
-  "actions": "",
+  "actions": "For the first time, FFPL, Pakistan’s Tier 1 Free Fire pro league, introduced offline qualifiers across 6 cities selected based on user demographic data. Participation grew from 864 teams in FFPL 3 to 1,152 in FFPL 4. The Tier 2 FFSS (Soobai Series) also attracted ~900 teams, with 1 promotion slot to FFPL. We attracted >5.000 offline participants , >430K online reach each season\nThe offline format is the first layer touchpoint with users, created stronger community engagement/retention and real competitive experiences. With a niche market rich in traditional culture & religious beliefs like Pakistan, combine with data and market research,  this form of marketing bring high conversion rate in user sentiment & retention both externally and internally. \nMY ROLE & EXPERTISE: Conducted user and market research, translated data into actions, developed the tournament format, and aligned it with brand strategy and vision.",
   "results": [],
   "tags": [],
-  "body": "",
-  "order_marketing": 7,
-  "order_product": 7,
-  "order_balanced": 7
+  "body": "For the first time, FFPL, Pakistan’s Tier 1 Free Fire pro league, introduced offline qualifiers across 6 cities selected based on user demographic data. Participation grew from 864 teams in FFPL 3 to 1,152 in FFPL 4. The Tier 2 FFSS (Soobai Series) also attracted \\~900 teams, with 1 promotion slot to FFPL. We attracted >5.000 offline participants , >430K online reach each season\n\nThe offline format is the first layer touchpoint with users, creating stronger community engagement/retention and real competitive experiences. With a niche market rich in traditional culture & religious beliefs like Pakistan, combined with data and market research, this form of marketing brings high conversion rate in user sentiment & retention both externally and internally. \n\nMY ROLE & EXPERTISE: Conducted user and market research, translated data into actions, developed the tournament format, and aligned it with brand strategy and vision.",
+  "order_marketing": 10,
+  "order_product": 10,
+  "order_balanced": 10
 }
